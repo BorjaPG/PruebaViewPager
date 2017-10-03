@@ -25,8 +25,8 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
         la posición correspondiente, Pos1, Pos2 o Pos3. */
         return MyFragment.newInstance(tab[pos]);
 
-        /* En esta parte se puede hacer un switch y dependiendo de la pos u opción elegida
-        * llamar a una actividad u otra. */
+        /* En esta parte se puede hacer un switch y dependiendo de la posicion u opción elegida
+        * se puede llamar a una actividad u otra. */
     }
 
     /* Devuelve el numero de vistas disponibles de la interfaz. En otras palabras, el
